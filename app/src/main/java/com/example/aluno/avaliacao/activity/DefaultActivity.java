@@ -5,12 +5,15 @@ import android.widget.EditText;
 import android.widget.ListView;
 
 import com.example.aluno.avaliacao.model.User;
+import com.example.aluno.avaliacao.resources.UserResource;
 
 import java.util.ArrayList;
 import java.util.List;
 
 
 public class DefaultActivity extends AppCompatActivity {
+
+
 
     protected EditText txtId;
     protected EditText txtNome;
@@ -28,7 +31,9 @@ public class DefaultActivity extends AppCompatActivity {
     protected EditText txtCatchPhrase;
     protected EditText txtBs;
 
-    public List<User> lista = new ArrayList<>();
+
+
+    public List<User> listUser = new ArrayList<>();
     public ListView minhaLista;
 
 

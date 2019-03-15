@@ -3,6 +3,8 @@ package com.example.aluno.avaliacao.model;
 
 import android.widget.EditText;
 
+import lombok.Builder;
+
 public class User {
     private int id;
     private String name;
@@ -15,6 +17,8 @@ public class User {
     private Company company;
     private Geo geo;
 
+
+    @Builder
     public User(int id, String name,
                 String userName,
                 String email, String phone,
@@ -30,6 +34,7 @@ public class User {
         this.company = company;
         this.geo = geo;
     }
+
 
     public User(String nome, String userName, String email, String street, String suite, String city, String zipcode, String lat, String lgt, String phone, String website, String nomecompany, String catchphrase, String bs) {
     }

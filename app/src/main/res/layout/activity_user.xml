@@ -50,53 +50,53 @@
             android:hint="Email" />
 
 
-        <EditText
-            android:id="@+id/txtStreet"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="Street" />
+        <!--<EditText-->
+            <!--android:id="@+id/txtStreet"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:ems="10"-->
+            <!--android:inputType="textPersonName"-->
+            <!--android:hint="Street" />-->
 
-        <EditText
-            android:id="@+id/txtSuite"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="Suite" />
+        <!--<EditText-->
+            <!--android:id="@+id/txtSuite"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:ems="10"-->
+            <!--android:inputType="textPersonName"-->
+            <!--android:hint="Suite" />-->
 
-        <EditText
-            android:id="@+id/txtCity"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="City" />
+        <!--<EditText-->
+            <!--android:id="@+id/txtCity"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:ems="10"-->
+            <!--android:inputType="textPersonName"-->
+            <!--android:hint="City" />-->
 
-        <EditText
-            android:id="@+id/txtZipCode"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="ZipCode" />
+        <!--<EditText-->
+            <!--android:id="@+id/txtZipCode"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:ems="10"-->
+            <!--android:inputType="textPersonName"-->
+            <!--android:hint="ZipCode" />-->
 
-        <EditText
-            android:id="@+id/txtLat"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="Lat" />
+        <!--<EditText-->
+            <!--android:id="@+id/txtLat"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:ems="10"-->
+            <!--android:inputType="textPersonName"-->
+            <!--android:hint="Lat" />-->
 
-        <EditText
-            android:id="@+id/txtLgt"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="Lgt" />
+        <!--<EditText-->
+            <!--android:id="@+id/txtLgt"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:ems="10"-->
+            <!--android:inputType="textPersonName"-->
+            <!--android:hint="Lgt" />-->
 
         <EditText
             android:id="@+id/txtPhone"
@@ -114,29 +114,29 @@
             android:inputType="textPersonName"
             android:hint="Web Site" />
 
-        <EditText
-            android:id="@+id/txtNameCompany"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="Name Company" />
+        <!--<EditText-->
+            <!--android:id="@+id/txtNameCompany"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:ems="10"-->
+            <!--android:inputType="textPersonName"-->
+            <!--android:hint="Name Company" />-->
 
-        <EditText
-            android:id="@+id/txtCatchPhrase"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="Catch Phrase" />
+        <!--<EditText-->
+            <!--android:id="@+id/txtCatchPhrase"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:ems="10"-->
+            <!--android:inputType="textPersonName"-->
+            <!--android:hint="Catch Phrase" />-->
 
-        <EditText
-            android:id="@+id/txtBs"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="Bs" />
+        <!--<EditText-->
+            <!--android:id="@+id/txtBs"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:ems="10"-->
+            <!--android:inputType="textPersonName"-->
+            <!--android:hint="Bs" />-->
 
         <Button
             android:id="@+id/btnAdicionar"
