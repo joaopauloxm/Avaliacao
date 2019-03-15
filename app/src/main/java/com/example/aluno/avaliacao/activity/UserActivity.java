@@ -1,6 +1,7 @@
 package com.example.aluno.avaliacao.activity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.SimpleAdapter;
 import android.widget.Toast;
@@ -22,8 +23,7 @@ import retrofit2.Response;
 public class UserActivity extends DefaultActivity {
 
     UserResource apiUserResourse;
-    List<HashMap<String,String>> colecao =
-            new ArrayList<HashMap<String,String>>();
+    List<HashMap<String,String>> colecao = new ArrayList<HashMap<String,String>>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,18 +42,20 @@ public class UserActivity extends DefaultActivity {
 
                 listUser = response.body();
 
-                for(User u: listUser){
 
-                    //Criar dados para adapter
+                for(User u: listUser){
                     HashMap<String,String> mapUser = new HashMap<String,String>();
+                    //Criar dados para adapter
                     mapUser.put("id",String.valueOf(u.getId()));
                     mapUser.put("username",u.getUserName());
                     mapUser.put("email",u.getEmail());
                     mapUser.put("phone",u.getPhone());
                     mapUser.put("website",u.getWebsite());
 
+                    Log.i("USER: ", u.getId() + "");
                     colecao.add(mapUser);
                 }
+
 
                 String[] from = {"id","username","email","phone","website"};
                 int[] to = {R.id.txtId,R.id.txtUserName, R.id.txtEmail, R.id.txtPhone,R.id.txtWebSite};

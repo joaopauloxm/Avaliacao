@@ -19,7 +19,7 @@ import retrofit2.http.PUT;
 
 public interface UserResource {
 
-    @GET("user")
+    @GET("users")
     Call<List<User>> get();
 
     @POST("user")
